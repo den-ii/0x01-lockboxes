@@ -1,9 +1,12 @@
 #!/usr/bin/python3
-""" lockbox module """
+''' lockbox module '''
 
 
 def canUnlockAll(boxes):
-    """ canUnlockAll function """
+    ''' 
+        CanUnockAll
+        ([boxes]): a list of list
+    '''
 
     # initialize a list of unlocked boxes
     unlocked = [False] * len(boxes)
